@@ -7,13 +7,16 @@ function theBeatlesPlay(musicians, instruments) {
   return emptyArray
 }  
   
-const shoutedFacts = []
+function johnLennonFacts() {
 
-  let i = 0
-  while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`)
+  const facts = []
+  let i=0
+  while ( i < facts.length) {
+    facts.push(`${facts[i]}!!!`)
     i++
   }
+  return facts
+}
 
 function iLoveTheBeatles(n) {
  var arr = [] 
