@@ -15,6 +15,7 @@ const shoutedFacts = []
     shoutedFacts.push(`${facts[i]}!!!`)
     i++
   }
+  return facts
 }
 
 function iLoveTheBeatles(n) {
