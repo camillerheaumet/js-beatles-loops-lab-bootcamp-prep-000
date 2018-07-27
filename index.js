@@ -15,6 +15,7 @@ const shoutedFacts = []
     shoutedFacts.push(`${facts[i]}!!!`)
     i++
   }
+}
 
 function iLoveTheBeatles(n) {
  var arr = [] 
